@@ -1,9 +1,13 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './calculator.css';
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     const uniformStyles = 'col-3 div height border d-flex justify-content-center align-items-center';
     const yellowButton = `${uniformStyles} bg-warning`;
