@@ -1,6 +1,8 @@
 # Math Magician
 
 > This is a React project which demonstrates the logic of a simple calculator
+
+![screenshot](src/images/display.png)
 ## Built With
 
 - React
