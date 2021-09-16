@@ -23,7 +23,7 @@ class Calculator extends React.Component {
     const yellowButton = `${uniformStyles} bg-warning`;
     return (
       <div className="row border w-50">
-        <div className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light">{this.state.next || this.state.total}</div>
+        <div className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light">{this.state.next || this.state.total || '0'}</div>
         <button type="button" className={uniformStyles} onClick={this.clickHandler}>AC</button>
         <button type="button" className={uniformStyles} onClick={this.clickHandler}>+/-</button>
         <button type="button" className={uniformStyles} onClick={this.clickHandler}>%</button>
