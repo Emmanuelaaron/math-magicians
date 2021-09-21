@@ -1,0 +1,13 @@
+.height {
+  height: 10vh;
+}
+
+.div {
+  cursor: pointer;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 66px;
+}

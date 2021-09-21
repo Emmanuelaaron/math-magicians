@@ -3,6 +3,11 @@
 > This is a React project which demonstrates the logic of a simple calculator
 
 ![screenshot](src/images/display.png)
+
+## Live Demo
+
+> For a Live Demo Click [here](https://emmanuelaaron.github.io/math-magicians/)
+
 ## Built With
 
 - React
