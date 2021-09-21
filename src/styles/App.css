@@ -1,21 +1,45 @@
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 28px 0 28px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px 0 28px;
 }
 
 .headerRight {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-
 
 li {
-    float: right;
-    padding: 8px;
+  float: right;
+  padding: 8px;
 }
-  
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.home {
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.welcome-heading {
+  margin-bottom: 20px;
+}
+
+body {
+  overflow: hidden;
+}

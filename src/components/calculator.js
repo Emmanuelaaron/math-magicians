@@ -19,7 +19,7 @@ const Calculator = () => {
     <>
       <Header />
       <div className="calculator">
-        <p>Let's do some Mathematics</p>
+        <p>Lets do some Mathematics</p>
         <div className="row border w-50">
           <div className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light">{next || total || '0'}</div>
           <button type="button" className={uniformStyles} onClick={clickHandler}>AC</button>

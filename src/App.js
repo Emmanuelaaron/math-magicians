@@ -1,5 +1,11 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom';
 import Calculator from './components/calculator';
+import Home from './components/Home';
 import './styles/App.css';
 
 class App extends React.Component {
@@ -10,9 +16,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Calculator />
-      </div>
+      <Router>
+        <Switch>
+          <Route path="/calculator">
+            <Calculator />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+
     );
   }
 }
