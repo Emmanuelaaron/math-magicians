@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <div
+      className="HeaderLeft"
+    >
+      <h3>
+        Math Magicians
+      </h3>
+    </div>
+    <ul
+      className="headerRight"
+    >
+      <li>
+        <a
+          aria-current={null}
+          href="/Quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          href="/Calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          className="active-link"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+    </ul>
+  </header>,
+  <section
+    className="home"
+  >
+    <div
+      className="content"
+    >
+      <h4
+        className="welcome-heading"
+      >
+        Welcome to our Page
+      </h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+  </section>,
+]
+`;
