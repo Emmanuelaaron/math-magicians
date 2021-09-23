@@ -7,6 +7,6 @@ describe('Quote', () => {
   it('should render the quote component', () => {
     const quote = renderer.create(<Quote />);
 
-    expect(quote).toMatchSnapshot()
+    expect(quote).toMatchSnapshot();
   });
 });

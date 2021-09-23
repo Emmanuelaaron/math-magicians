@@ -7,6 +7,6 @@ describe('Home', () => {
   it('should render the home component', () => {
     const home = renderer.create(<Home />);
 
-    expect(home).toMatchSnapshot()
+    expect(home).toMatchSnapshot();
   });
 });

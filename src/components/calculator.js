@@ -20,12 +20,12 @@ const Calculator = () => {
       <div className="calculator">
         <p>Lets do some Mathematics</p>
         <div className="row border w-50">
-          <div className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light">{next || total || '0'}</div>
+          <div className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light" data-testid="screen">{next || total || '0'}</div>
           <button type="button" className={uniformStyles} onClick={clickHandler}>AC</button>
           <button type="button" className={uniformStyles} onClick={clickHandler}>+/-</button>
           <button type="button" className={uniformStyles} onClick={clickHandler}>%</button>
           <button type="button" className={yellowButton} onClick={clickHandler}>÷</button>
-          <button type="button" className={uniformStyles} onClick={clickHandler}>7</button>
+          <button type="button" className={uniformStyles} onClick={clickHandler} data-testid="seven">7</button>
           <button type="button" className={uniformStyles} onClick={clickHandler}>8</button>
           <button type="button" className={uniformStyles} onClick={clickHandler}>9</button>
           <button type="button" className={yellowButton} onClick={clickHandler}>x</button>
