@@ -7,6 +7,7 @@ import {
 import Calculator from './components/calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
+import Header from './components/Header';
 import './styles/App.css';
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <Header />
         <Switch>
           <Route path="/calculator">
             <Calculator />

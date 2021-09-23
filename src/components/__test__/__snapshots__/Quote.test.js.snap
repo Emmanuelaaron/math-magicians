@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote should render the quote component 1`] = `
+<section
+  className="home1"
+>
+  <div
+    className="content1"
+  >
+    <p>
+      Mathematics is not about numbers, equations, computations or algorithms. It is about understanding - William Paul Thurston
+    </p>
+  </div>
+</section>
+`;

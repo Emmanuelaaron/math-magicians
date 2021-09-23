@@ -1,9 +1,7 @@
 import React from 'react';
-import Header from './Header';
 
 const Quote = () => (
   <>
-    <Header />
     <section className="home1">
       <div className="content1">
         <p>
