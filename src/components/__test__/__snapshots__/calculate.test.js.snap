@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator testing if button is a . 1`] = `
+Object {
+  "next": "0.",
+  "operation": "+",
+  "total": 3,
+}
+`;
+
+exports[`Calculator testing if button is a 0 and next is 0 too 1`] = `Object {}`;
+
+exports[`Calculator testing if button is a 0 and next is 0 too 2`] = `
+Object {
+  "next": "8",
+  "operation": "+",
+  "total": 3,
+}
+`;
+
+exports[`Calculator testing if button is a number 1`] = `
+Object {
+  "next": "19",
+  "operation": "+",
+  "total": 3,
+}
+`;
+
+exports[`Calculator testing result of '+/-' 1`] = `
+Object {
+  "next": "-1",
+  "operation": "+",
+  "total": 3,
+}
+`;
+
+exports[`Calculator testing returns 0 when AC button is clicked 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`Calculator testing returns the result if "=" is clicked 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "4",
+}
+`;
