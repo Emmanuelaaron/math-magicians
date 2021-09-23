@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator should render the calculator component 1`] = `
+<div
+  className="calculator"
+>
+  <p>
+    Lets do some Mathematics
+  </p>
+  <div
+    className="row border w-50"
+  >
+    <div
+      className="col-12 div height border d-flex justify-content-end align-items-end bg-secondary text-light"
+    >
+      0
+    </div>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="col-6 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="col-3 div height border d-flex justify-content-center align-items-center bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;

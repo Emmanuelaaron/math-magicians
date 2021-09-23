@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/calculator.css';
 import calculate from '../logic/calculate';
-import Header from './Header';
 
 const Calculator = () => {
   const [calulation, setCalculation] = useState({ total: null, next: null, operation: null });
@@ -17,7 +16,7 @@ const Calculator = () => {
   const yellowButton = `${uniformStyles} bg-warning`;
   return (
     <>
-      <Header />
+
       <div className="calculator">
         <p>Lets do some Mathematics</p>
         <div className="row border w-50">
